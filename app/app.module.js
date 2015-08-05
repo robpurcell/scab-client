@@ -2,20 +2,19 @@
 
 /**
  * @ngdoc overview
- * @name scabClientApp
+ * @name app
  * @description
- * # scabClientApp
+ * # Client App
  *
  * Main module of the application.
  */
 angular
-  .module('scabClientApp', [
-    'ngAnimate',
-    'ngCookies',
-    'ngResource',
-    'ngRoute',
-    'ngSanitize',
-    'ngTouch'
+  .module('app', [
+
+    /* Shared modules */
+    'app.core'
+
+    /* Feature modules */
   ])
   .config(function ($routeProvider) {
     $routeProvider
