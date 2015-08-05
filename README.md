@@ -1,0 +1,2 @@
+# scab-client
+AngularJS Client
