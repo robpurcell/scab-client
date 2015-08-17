@@ -1,6 +1,6 @@
 # scab-client
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url]
+[![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url]
 
 Client for the corresponding application.
 
@@ -14,16 +14,13 @@ Running `gulp test` will run the style checks and unit tests with JSHint, JSCS a
 
 ## License
 
-[MIT License](http://en.wikipedia.org/wiki/MIT_License)
+[MIT License](http://http://mit-license.org)
 
-[npm-url]: https://npmjs.org/package/gulp-plumber
-[npm-image]: http://img.shields.io/npm/v/gulp-plumber.svg?style=flat
+[travis-url]: https://travis-ci.org/robpurcell/scab-client
+[travis-image]: http://img.shields.io/travis/robpurcell/scab-client.svg?style=flat
 
-[travis-url]: https://travis-ci.org/floatdrop/gulp-plumber
-[travis-image]: http://img.shields.io/travis/floatdrop/gulp-plumber.svg?style=flat
+[coveralls-url]: https://coveralls.io/r/robpurcell/scab-client
+[coveralls-image]: http://img.shields.io/coveralls/robpurcell/scab-client.svg?style=flat
 
-[coveralls-url]: https://coveralls.io/r/floatdrop/gulp-plumber
-[coveralls-image]: http://img.shields.io/coveralls/floatdrop/gulp-plumber.svg?style=flat
-
-[depstat-url]: https://david-dm.org/floatdrop/gulp-plumber
-[depstat-image]: http://img.shields.io/david/floatdrop/gulp-plumber.svg?style=flat
+[depstat-url]: https://david-dm.org/robpurcell/scab-client#info=devDependencies
+[depstat-image]: http://img.shields.io/david/dev/robpurcell/scab-client.svg?style=flat

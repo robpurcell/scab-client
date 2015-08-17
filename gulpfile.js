@@ -7,6 +7,7 @@ var gulp = require('gulp');
 var path = require('path');
 var _ = require('lodash');
 var $ = require('gulp-load-plugins')({lazy: true});
+var coveralls = require('gulp-coveralls');
 
 var colors = $.util.colors;
 var envenv = $.util.env;
@@ -381,9 +382,17 @@ gulp.task('bump', function() {
 gulp.task('browserSyncReload', ['optimize'], browserSync.reload);
 
 /**
+ * Run coverage for upload to coveralls
+ */
+gulp.task('coveralls', ['vet'], function() {
+  return gulp.src('report/coverage/**/lcov.info')
+    .pipe(coveralls());
+});
+
+/**
  * Travis CI uses this
  */
-gulp.task('ci', ['test', 'build']);
+gulp.task('ci', ['test', 'coveralls', 'build']);
 
 ////////////////
 
