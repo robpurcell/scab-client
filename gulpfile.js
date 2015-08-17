@@ -383,7 +383,7 @@ gulp.task('browserSyncReload', ['optimize'], browserSync.reload);
 /**
  * Travis CI uses this
  */
-gulp.task('ci', ['vet', 'test', 'build']);
+gulp.task('ci', ['test', 'build']);
 
 ////////////////
 
