@@ -1,0 +1,22 @@
+{
+  "excludeFiles": [
+    "node_modules/**",
+    "bower_components/**",
+    "src/server/**"
+  ],
+  "preset": "google",
+  "requireDotNotation": null,
+  "jsDoc": {
+    "checkAnnotations": true,
+    "checkParamNames": true,
+    "requireParamTypes": true,
+    "checkReturnTypes": true,
+    "checkTypes": true
+  },
+  "maximumLineLength": {
+    "value": 100,
+    "allowComments": true,
+    "allowRegex": true
+  }
+
+}
