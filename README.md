@@ -19,7 +19,7 @@ Running `gulp test` will run the style checks and unit tests with JSHint, JSCS a
 [travis-url]: https://travis-ci.org/robpurcell/scab-client
 [travis-image]: http://img.shields.io/travis/robpurcell/scab-client.svg?style=flat
 
-[coveralls-url]: https://coveralls.io/r/robpurcell/scab-client
+[coveralls-url]: https://coveralls.io/github/robpurcell/scab-client?branch=master
 [coveralls-image]: http://img.shields.io/coveralls/robpurcell/scab-client.svg?style=flat
 
 [depstat-url]: https://david-dm.org/robpurcell/scab-client#info=devDependencies
