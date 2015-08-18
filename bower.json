@@ -2,19 +2,21 @@
   "name": "scab-client",
   "version": "0.0.1",
   "devDependencies": {
-    "angular-mocks": "^1.4.3",
+    "angular-mocks": "^1.4.4",
     "sinon": "http://sinonjs.org/releases/sinon-1.12.1.js",
     "bardjs": "~0.1.4"
   },
   "dependencies": {
-    "angular": "^1.4.3",
+    "angular": "^1.4.4",
     "bootstrap": "^3.3.5",
-    "angular-animate": "^1.4.3",
-    "angular-cookies": "^1.4.3",
-    "angular-resource": "^1.4.3",
-    "angular-route": "^1.4.3",
-    "angular-sanitize": "^1.4.3",
-    "angular-touch": "^1.4.3",
+    "angular-aria": "~1.4.4",
+    "angular-animate": "^1.4.4",
+    "angular-cookies": "^1.4.4",
+    "angular-material": "~0.10.1",
+    "angular-resource": "^1.4.4",
+    "angular-route": "^1.4.4",
+    "angular-sanitize": "^1.4.4",
+    "angular-touch": "^1.4.4",
     "font-awesome": "~4.4.0",
     "moment": "~2.10.6",
     "toastr": "~2.1.2"
@@ -25,6 +27,12 @@
         "less/bootstrap.less",
         "dist/css/bootstrap.css",
         "dist/js/bootstrap.js"
+      ]
+    },
+    "angular-material": {
+      "main": [
+        "angular-material.css",
+        "angular-material.js"
       ]
     }
   }
