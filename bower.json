@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "angular": "^1.4.4",
-    "bootstrap": "^3.3.5",
     "angular-aria": "~1.4.4",
     "angular-animate": "^1.4.4",
     "angular-cookies": "^1.4.4",
@@ -17,18 +16,12 @@
     "angular-route": "^1.4.4",
     "angular-sanitize": "^1.4.4",
     "angular-touch": "^1.4.4",
+    "angular-ui-router": "~0.2.15",
     "font-awesome": "~4.4.0",
     "moment": "~2.10.6",
     "toastr": "~2.1.2"
   },
   "overrides": {
-    "bootstrap": {
-      "main": [
-        "less/bootstrap.less",
-        "dist/css/bootstrap.css",
-        "dist/js/bootstrap.js"
-      ]
-    },
     "angular-material": {
       "main": [
         "angular-material.css",

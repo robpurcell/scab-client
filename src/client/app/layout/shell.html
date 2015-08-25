@@ -1,0 +1,34 @@
+<div ng-controller="ShellController as vm" layout="column">
+  <section layout="row" flex>
+    <div ng-include="'app/layout/leftnav.html'"></div>
+
+    <md-content flex layout-padding>
+      <div layout="column" layout-fill layout-align="top center">
+        <p>
+          The left sidenav will 'lock open' on a medium (>=960px wide) device.
+        </p>
+
+        <p>
+          The right sidenav will focus on a specific child element.
+        </p>
+
+        <div>
+          <md-button ng-click="vm.toggleLeft()"
+                     class="md-primary" hide-gt-md>
+            Toggle left
+          </md-button>
+        </div>
+        <div>
+          <md-button ng-click="vm.toggleRight()"
+                     class="md-primary">
+            Toggle right
+          </md-button>
+        </div>
+      </div>
+      <div flex></div>
+    </md-content>
+
+    <div ng-include="'app/layout/rightnav.html'"></div>
+
+  </section>
+</div>

@@ -4,7 +4,8 @@
   angular
     .module('app', [
       /* Shared modules */
-      'app.core'
+      'app.core',
+      'app.layout'
 
       /* Feature modules */
     ])
